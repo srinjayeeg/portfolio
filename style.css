@@ -16,7 +16,7 @@ body{
     min-height: 100vh;
     background-image: url(images/bg.png);
     background-size: cover;
-    background-position: 0 -150px;
+    background-position: -20px -100px;
 }
 .container{
   padding: 5px 10%;
@@ -45,7 +45,7 @@ nav ul li{
 nav ul li a{
     color: #a09e4a;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     margin-right: 5px;
     font-weight: bold;
 }
@@ -55,12 +55,12 @@ nav ul li a:hover{
 
 .header-text{
     margin-top: 0.5%;
-    font-size: 27px;
+    font-size: 30px;
     margin-left: -40px;
     color:#bc9c22;
 }
 .header-text h1{
-    font-size: 70px;
+    font-size: 60px;
     margin-top:10px;
 }
 .header-text h1 span{
@@ -83,20 +83,20 @@ nav ul li a:hover{
 }
 
 .buttons-home{
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .btn{
     margin-top: 25px;
     font-family: 'Montserrat', sans-serif;
     display: inline-block;
-    padding: 5px 20px;;
+    padding: 5px 10px;;
     color: #f4f1e8;
     background-color: #bc9c22;
     text-decoration: none;
-    border-radius: 25px;
-    font-size: 32px;
-    transition: background-color 0.3s ease;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: background-color 0.1s ease;
 }
 
 .btn:hover{
@@ -124,14 +124,14 @@ nav ul li a:hover{
 
 .about-col-1 h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     color: #bc9c22;
     margin-bottom: 15px;
     font-weight: bolder;
 }
 
 .about-col-1 p{
-    font-size: 30px;
+    font-size: 20px;
     color: #f4f1e8;
     line-height: 1.6;
     content: justify;
@@ -148,7 +148,7 @@ nav ul li a:hover{
     flex: 0 0 35%;
 }
 .experience h2{
-    font-size: 50px;
+    font-size: 25px;
     color: #bc9c22;
     margin-bottom: 20px;
 }
@@ -166,17 +166,17 @@ nav ul li a:hover{
 
 .exp-item h4{
     font-family: 'Montserrat', sans-serif;
-    font-size: 28px;
+    font-size: 22px;
     color: #ffdf7e;
     margin: 0;
 }
 
 .exp-item span{
-    font-size: 17px;
+    font-size: 15px;
     color: #777;
 }
 .exp-item p{
-    font-size: 23px;
+    font-size: 20px;
     color: #f4f1e8;
     margin-top: 10px;
     content: justify;
@@ -186,8 +186,8 @@ nav ul li a:hover{
     flex: 0 0 35%;
 }
 
-.education h2{
-    font-size: 50px;
+.education h2 {
+    font-size: 25px;
     color: #bc9c22;
     margin-bottom: 20px;
 }
@@ -199,16 +199,16 @@ nav ul li a:hover{
 }
 .edu h4{
     font-family: 'Montserrat', sans-serif;
-    font-size: 28px;
+    font-size: 22px;
     color: #ffdf7e;
     margin: 0;
 }
 .edu span{
-    font-size: 20px;
+    font-size: 15px;
     color: #777;
 }
 .edu p{
-    font-size: 25px;
+    font-size: 20px;
     color: #f4f1e8;
     margin-top: 10px;
     font-weight: bold;
@@ -218,12 +218,12 @@ nav ul li a:hover{
     flex: 0 0 30%;
 }
 .skills h2{
-    font-size: 50px;
+    font-size: 25px;
     color: #bc9c22;
     margin-bottom: 20px;
 }
 .skill{
-    font-size: 30px;
+    font-size: 20px;
     color: #f4f1e8;
     margin-bottom: 20px;
 }
@@ -233,7 +233,7 @@ nav ul li a:hover{
 }
 .bar{
     width: 100%;
-    height: 20px;
+    height: 22px;
     background-color: #ddd;
     border-radius: 20px;
     overflow: hidden;
@@ -241,12 +241,12 @@ nav ul li a:hover{
 .fill{
     height: 100%;
     background-color: #ffbf00;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 .progress{
     height: 100%;
     background-color: #ffbf00;
-    border-radius: 20px;
+    border-radius: 15px;
     transition: width 0.8s ease;
 }
 .about-tech{
@@ -270,14 +270,14 @@ nav ul li a:hover{
 
 .tech-box h2,
 .soft-skill h2{
-    font-size: 40px;
+    font-size: 30px;
     color: #ffe88e;
     margin-bottom: 20px;
 }
 .tech-grid span{
-    font-size: 32px;
+    font-size: 25px;
     color: #a19e54;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
     display: block;
     transition: 0.3s ease;;
 }
@@ -290,7 +290,7 @@ nav ul li a:hover{
     gap:10px;
 }
 .soft-skill li{
-    font-size: 30px;
+    font-size: 25px;
     color: #a19e54;
     margin-bottom: 10px;
     display: block;
