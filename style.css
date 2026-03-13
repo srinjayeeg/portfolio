@@ -16,7 +16,7 @@ body{
     min-height: 100vh;
     background-image: url(images/bg.png);
     background-size: cover;
-    background-position: -20px -100px;
+    background-position: 0px -100px;
 }
 .container{
   padding: 5px 10%;
@@ -33,6 +33,13 @@ nav{
 .logo{
     width: 300px;
     margin-left: -80px;
+}
+
+#menuIcon {
+    display: none;
+    font-size: 30px;
+    color: #bc9c22;
+    cursor: pointer;
 }
 
 nav ul li{
@@ -461,4 +468,107 @@ form btn{
     background-color:#a19e54;
     font-weight: 300;
     margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+
+    #header{
+        background-position: 0 0;
+        background-size: cover;
+        background-position: -20px -100px;
+    }
+
+    .header-text {
+        margin-left: 0;
+        margin-top: 20%;
+        font-size: 20px;
+    }
+
+    .header-text h1 {
+        font-size: 50px;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 5%;
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+
+    .logo {
+        width: 150px;
+        margin-left: -10px;
+        order: 1; 
+    }
+
+    #menuIcon {
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+        order: 2;
+        padding: 10px;
+        color: #bc9c22;
+    }
+
+    nav ul {
+        background: #343316;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 80px;
+        z-index: 100;
+        transition: right 0.5s;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul.active {
+        right: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 15px 25px;
+    }
+
+    nav ul .fa-xmark {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        cursor: pointer;
+        font-size: 25px;
+        color: #f4f1e8;
+    }
+
+    .container {
+        padding: 10px 5%;
+        transform: none; 
+        max-width: 100%;
+    }
+
+    .header-text {
+        margin-top: 20%;
+        font-size: 20px;
+    }
+
+    .header-text h1 {
+        font-size: 40px;
+    }
+
+    .below, .about-tech, .row {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .contact-left, .contact-right, .experience, .education, .skills {
+        flex-basis: 100%;
+    }
+
+    .tech-grid, .soft-skill ul {
+        grid-template-columns: 1fr;
+    }
 }

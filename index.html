@@ -15,11 +15,14 @@
     <div class="container"> 
       <nav>
         <img src="images/portfolio-logo.png" class="logo">
-        <ul>
+        
+        <i class="fa-solid fa-bars" id="menuIcon" onclick="toggleMenu()"></i>
+        <ul id ="sidemenu">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="toggleMenu()"></i>
         </ul>
       </nav>
       <div class="header-text">
@@ -218,7 +221,13 @@
     </div>
   </div>
 <script>
-  // Simple menu open/close handlers (safe checks)
+  function toggleMenu() {
+    var menu = document.getElementById("sidemenu");
+    menu.classList.toggle("active");
+    console.log("Menu toggled!");
+  } 
+</script>
+<script>
   function openMenu() {
     const ul = document.querySelector('nav ul');
     const menuIcon = document.querySelector('.menu-icon');
