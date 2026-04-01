@@ -160,20 +160,20 @@ nav ul li a:hover{
     margin-bottom: 20px;
 }
 .exp-item h1{
-    font-size: 25px;
+    font-size: 20px;
     color: #fff2cb;
     margin: 0;
     margin-top: 2px;
 }
 .exp-item{
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     padding-left: 15px;
     border-left: 3px solid #f4f1e8;
 }
 
 .exp-item h4{
     font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     color: #ffdf7e;
     margin: 0;
 }
